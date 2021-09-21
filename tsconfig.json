@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["ES6"],
+    "noLib": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
